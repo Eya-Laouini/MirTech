@@ -1,0 +1,169 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:roboto,sans-serif;
+}
+header{
+	margin-top: 0;
+	dispaly: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	height: 200px;
+	width: 100%;
+}
+ header img{
+ 	padding: 0;
+	width: 200px;
+	height: 200px;
+}
+ header ul{
+ 	position: absolute;
+ 	top: 70px;
+ 	right: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: auto;
+	list-style: none;
+	margin-right: 40px;
+}
+header a {
+	color:#fa1f53;
+	font-size:24px;
+	margin-top: 0;
+	margin-left: 50px;
+	text-decoration: none;
+}
+header a:hover{
+	font-weight: bold;
+
+}
+#home{
+	background-image: url("images/fond2.jpg");
+	background-size: contain;
+	background-position: center center;
+	color:white;	
+	height: 400px;
+	padding: 40px;
+	font-size: 25px;
+
+}
+#home p{
+	margin-bottom: 100px;
+}
+#home a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	border-radius: 20%;
+	background-color:#fa1f53;
+
+}
+#home a:hover{
+	background-color: #990e49;
+}
+#home h1{
+	color:#990e49;
+	font-size: 60px;
+	margin: 0;
+}
+#home h3{
+	color: #990e49;
+	margin: 0;
+}
+footer{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	padding:0 40px;
+	margin-bottom: 20px;
+
+}
+footer img{
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 50px;
+}
+footer h4{
+	color:#fa1f53 ;
+	font-weight: bold;
+}
+#contact,#contact div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#contact input{
+	width: 500px;
+	height: 50px;
+	margin: 10px;
+
+}
+#contact textarea{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 1038px;
+	height: 100px;
+}
+#contact textarea::placeholder{
+
+	font-size: 20px;
+}
+#contact input::placeholder{
+	font-size: 20px;
+}
+#contact select{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 1043px;
+	height: 50px;
+	font-size: 20px;
+	color: gray;
+}
+#contact input[type=checkbox]{
+	width:20px;
+	height: 20px;
+}
+#contact input[type="submit"],#contact input[type="reset"]{
+	font-family:sans-serif;
+	width: 240px;
+	background: #fa1f53;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: 0;
+
+}
+#contact input[type="submit"]:hover,#contact input[type="reset"]:hover
+{
+	cursor: pointer;
+	background-color: #990e49;
+}
+#contact p{
+	color: gray;
+	font-size: 1.3em;
+	margin-top: 0;
+	padding-top: 0;
+}
+#about > div{
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+}
+#about img{
+	width: 620px;
+	height: 420px;
+	margin:auto 50px;
+}
+#about{
+	margin: 100px;
+}
+#about h2{
+	color: #fa1f53;
+}
+#about p{
+	font-size: 20px;
+	color: #404040;
+}
